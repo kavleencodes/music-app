@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+
+
+
+body{
+    background-color:palevioletred;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    font-family: 'Ubuntu',sans-serif;
+}
+
+nav ul{
+    display:flex ;
+    align-items: center;
+
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+   
+}
+
+.brand img{
+    width: 60px;
+    padding: 0px 5px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+
+}
+
+nav ul li{
+    padding: 0 12px;
+
+}
+.container{
+    height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round',sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto ;
+    border-radius: 12px;
+    padding: 35px;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.photo{
+    display: flex;
+    height: max-content;
+    width: 40px;
+    padding: 30px;
+
+}
+.songs{
+    margin-left: 30px;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+
+}
+
+.icons{
+    margin-top: 10px;
+}
+
+
+.icons i{
+    cursor: pointer;
+}
+
+
+#myprogressbar{
+    width:80vw;
+    cursor: pointer;
+
+}
+
+.songitem{
+    height: 50px;
+    width: 300%;
+
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 23px;
+    
+
+
+}
+.padd{
+    margin: 50px 0px;
+}
+
+.songitem img{
+    width: 50px;
+    margin: 0px 23px;
+    border-radius: 50px;
+
+}
+.timestamp{
+    padding: 25px;
+    font-size: large;
+    
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.container{
+    flex-direction: column;
+}
+
+.songtext{
+    text-align: center;
+    align-items: center;
+   display: flex;
+   font-size: 15px;
+   font-family: 'Var'
+}
+
+.songtext img{
+    opacity: 0;
+    transition: opacity 0.5sec ease-in;
+
+
+}
+
